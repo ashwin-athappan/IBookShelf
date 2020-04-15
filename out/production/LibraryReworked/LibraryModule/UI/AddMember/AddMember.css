@@ -1,0 +1,16 @@
+.jfx-button{
+    -fx-background-color:#00818a;
+    -fx-text-fill: #f9f6f7;
+}
+
+.jfx-button:hover{
+    -fx-background-color:#ec9b3b;
+}
+
+.back{
+    -fx-background-color:#293462;
+}
+
+.txt{
+    -fx-text-fill: #f9f6f7;
+}

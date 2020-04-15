@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="IntimateUserPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LibraryModule.UI.IntimateUser.IntimateUserController">
+   <children>
+      <JFXTextField fx:id="BookID" layoutX="217.0" layoutY="58.0" prefWidth="167.0" promptText="Enter the Book ID" />
+      <JFXButton fx:id="CheckButton" layoutX="276.0" layoutY="111.0" onAction="#doCheck" text="Check" />
+      <JFXTextArea fx:id="Message" layoutX="68.0" layoutY="171.0" prefHeight="141.0" prefWidth="464.0" promptText="Enter the Information" />
+      <JFXButton fx:id="Send" layoutX="279.0" layoutY="337.0" onAction="#send" text="Send" />
+   </children>
+</AnchorPane>

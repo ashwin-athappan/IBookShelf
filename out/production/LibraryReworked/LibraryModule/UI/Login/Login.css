@@ -1,0 +1,36 @@
+* {
+    -fx-primary:#fdfdfd;
+    -fx-secondary:#2f89fc;
+    -fx-ternary:#28c7fa;
+}
+
+.back{
+    -fx-background-color:#222831;
+}
+.txt{
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 30;
+    -fx-alignment: center;
+}
+
+.btn{
+    -fx-border-color: #2d6cdf;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.btn:hover{
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+}
+
+.txt-field{
+    -jfx-unfocus-color:-fx-ternary;
+    -jfx-focus-color:-fx-secondary;
+}
+
+.wrong-credentials{
+    -fx-text-fill: #FF0000;
+    -jfx-unfocus-color:#FF0000;
+    -jfx-focus-color:#FF0000;
+}

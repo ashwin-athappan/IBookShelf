@@ -1,0 +1,76 @@
+*{
+    -fx-main-back: #1b2a49;
+}
+
+.mainFxmlClass{
+
+}
+
+.issue-button{
+    -fx-background-color: #3d5af1;
+    -fx-text-fill: white;
+}
+
+.issue-button:hover{
+    -fx-background-color: #22d1ee;
+}
+
+.mainBack{
+    -fx-background-color: -fx-main-back;
+}
+
+.subBack1{
+    -fx-background-color: #222831;
+}
+
+.subBack2{
+    -fx-background-color: #3a3535;
+}
+
+.subBack3{
+    -fx-background-color: #232020;
+}
+
+.subBack3{
+    -fx-background-color: #232020;
+}
+
+.addMember{
+    -fx-background-color: #071e3d;
+    -fx-text-fill: #e3f6f5;
+}
+
+.addMember:hover{
+    -fx-background-color: #111d5e;
+}
+
+.txt{
+    -fx-background-color: #9be3de;
+    -fx-text-fill: #003f5c;
+    -fx-font-family: Roboto;
+}
+
+.MemberName{
+    -fx-text-fill: #003f5c;
+}
+
+/*Menu Bar*/
+.menu-bar{
+    -fx-base:-fx-main-back;
+    -fx-background-color: -fx-main-back;
+}
+
+.menu-bar:hover{
+
+}
+/*Tab Pane*/
+.tab{
+    -fx-pref-width: 350;
+    -fx-pref-height: 60;
+    -fx-background-color: -fx-main-back;
+}
+
+.tab-header-background{
+    -fx-background-color: -fx-main-back;
+}
+
